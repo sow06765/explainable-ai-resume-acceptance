@@ -167,6 +167,16 @@ The system follows a modular pipeline:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/explainable-ai-resume-acceptance.git
+```
+2. Install required libraries:
+```pip install pandas numpy scikit-learn shap matplotlib seaborn
+```
+3. Run the resume analysis script:
+```python pdf_ana.py
+```
+4.Upload a resume PDF to obtain:
+-Prediction result (Accepted / Rejected)
+-Explainable AI output
 
-
+---
 
