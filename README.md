@@ -169,10 +169,7 @@ The system follows a modular pipeline:
    git clone https://github.com/your-username/explainable-ai-resume-acceptance.git
 ```
 
-2.Install Required Libraries
-Ensure Python is installed on your system, then run:
-```bash
-pip install pandas numpy scikit-learn shap matplotlib seaborn
+2.Install Required Libraries: pip install pandas numpy scikit-learn shap matplotlib seaborn
 
 3. Run the resume analysis script: python pdf_ana.py
 
