@@ -98,5 +98,75 @@ explainable-ai-resume-acceptance/
 └── README.md                    # Project documentation and usage instructions
 ```
 
+---
+
+## System Architecture
+
+The system follows a modular pipeline:
+
+1. **Resume Input**
+   - Resume uploaded in PDF format
+2. **Feature Extraction**
+   - Text extraction and preprocessing
+3. **Prediction Module**
+   - Machine learning model predicts acceptance or rejection
+4. **Explainability Layer**
+   - SHAP and interpretable models explain predictions
+5. **Output Layer**
+   - Final decision with explanation
+
+---
+
+## Methodology
+
+1. Generate and preprocess synthetic resume data  
+2. Perform feature engineering and encoding  
+3. Train supervised machine learning models  
+4. Save trained models using Pickle  
+5. Apply SHAP for feature importance analysis  
+6. Generate human-readable explanations for predictions  
+
+---
+
+## Explainable AI Techniques
+
+- **SHAP (SHapley Additive Explanations)**
+  - Explains individual predictions
+  - Shows contribution of each feature
+
+- **Custom Interpretable Explainers**
+  - Converts numerical influence into readable insights  
+  - Example:
+    - “Strong technical skills increased acceptance probability”
+    - “Low experience reduced selection chances”
+
+---
+
+## Model Training & Evaluation
+
+- Models trained using supervised learning techniques  
+- Evaluation metrics include:
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report
+- Separate components used for prediction and explanation to maintain clarity
+
+---
+
+## Results & Explanation
+
+- The system accurately predicts resume acceptance or rejection  
+- Provides clear explanations for every decision  
+- Enhances trust and transparency in automated hiring  
+- Helps identify strengths and weaknesses in resumes  
+
+---
+
+## How to Run This Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/explainable-ai-resume-acceptance.git
+
 
 
