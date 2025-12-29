@@ -174,9 +174,9 @@ pip install pandas numpy scikit-learn shap matplotlib seaborn
 
 4. Upload a resume PDF to obtain:
 
--Prediction result (Accepted / Rejected)
+ -Prediction result (Accepted / Rejected)
 
--Explainable AI output
+ -Explainable AI output
 
 ## Future Work
 
