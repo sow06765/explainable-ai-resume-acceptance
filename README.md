@@ -163,21 +163,40 @@ The system follows a modular pipeline:
 ---
 
 ## How to Run This Project
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/explainable-ai-resume-acceptance.git
 
-2.Install Required Libraries :
+2. Install Required Libraries :
 pip install pandas numpy scikit-learn shap matplotlib seaborn
 
 3. Run the resume analysis script: python pdf_ana.py
 
-4.Upload a resume PDF to obtain:
+4. Upload a resume PDF to obtain:
 
 -Prediction result (Accepted / Rejected)
 
 -Explainable AI output
+
+## Future Work
+
+- Integration of deep learning models  
+- Bias detection and fairness evaluation  
+- Development of a web-based user interface  
+- Support for multiple resume formats  
+- Real-time recruiter analytics dashboard  
+
+---
+
+## Team Members
+
+- **Sowbhagya Laxmi Das** – Machine Learning, Explainable AI, Model Development  
+- **Abdur Johir Alom** – Data Preprocessing & Feature Engineering  
+- **Bikash Sah** – SHAP Integration & Analysis  
+- **Anshu Kumar** – Testing & Validation  
+- **Aditiya Raaj Singh** – Documentation  
+- **MD Atiquir Rahman** – Project Coordination  
+
 
 
 
